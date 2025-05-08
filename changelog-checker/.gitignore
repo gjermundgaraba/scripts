@@ -1,0 +1,24 @@
+# Binaries
+bin/
+changelog-checker
+
+# Environment variables
+.env
+
+# Go build files
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.test
+*.prof
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cache files
+.changelog-checker
