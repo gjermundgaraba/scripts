@@ -1,0 +1,15 @@
+{
+  "name": "close-reopened-issues",
+  "version": "1.0.0",
+  "description": "Finds and closes recently reopened GitHub issues",
+  "main": "close-reopened-issues.js",
+  "scripts": {
+    "start": "node close-reopened-issues.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^19.0.13",
+    "open": "^8.4.2"
+  }
+}
